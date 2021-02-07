@@ -1,0 +1,508 @@
+/* Start header*/
+
+body{
+   height: 2000px;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    background-color: #5e4a9f;
+    padding: 10px 0 ;
+    
+}
+
+/*Start social */
+header  a {
+    text-decoration: none;
+    color: #FFF;
+}
+header .social  {
+   list-style: none;
+    left: 0;
+    top: 0;
+    border-right:  2px solid #FFF;
+    text-align: center;
+    
+}
+header .social .fa {
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    
+}
+header .social li {
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+header .social .fa-facebook:hover{
+    color: blue;
+}
+header .social .fa-twitter:hover{
+    color: skyblue;
+}
+header .social .fa-youtube:hover{
+    color: red;
+}
+
+header .social .fa-instagram:hover{
+    color: orange;
+}
+
+header .social .fa-envelope:hover{
+    color: mediumpurple;
+}
+
+/*End social */
+
+/*Start marquee*/
+header .marquee {
+  direction: rtl;
+}
+
+header .js-marquee-wrapper {
+    width: 100000px;
+    transform: translateX(-4305px);
+    animation: 108.88s linear 0s infinite normal none running marqueeAnimation-1347330;
+}
+
+
+header .js-marquee {
+    margin-right: 0px;
+    float: left;
+}
+
+header .marquee ul {
+    direction: rtl;
+    
+}
+
+header  .marquee li {
+    display: inline-block;
+    color: #FFF;
+}
+
+header  .marquee li img {
+    margin: 0 30px ;
+    width: 30px;
+    color: #FFF;
+}
+header .marquee li p ,
+header  .marquee li img {
+    display: inline-block;
+}
+
+header .marquee li p a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all .5s ease-in-out ;
+}
+.marquee-wrapper {
+    overflow: hidden;
+    border-right: 1px solid #FFF;
+}
+
+/*End marquee*/
+
+/*Start navbar*/
+.nav-wrapper .navbar-inverse{
+    border: none;
+  background: #FFF; 
+   font-size: 20px;
+    transition: all 0.5s ease-in-out ;
+}
+
+
+.nav-wrapper .logo {
+    width: 200px;
+}
+
+.navbar .navbar-brand .fa{
+    position: absolute;
+    color: black;
+}
+.navbar .navbar-brand:hover .fa {
+  color: #5e4a9f;
+   
+}
+.nav-wrapper .navbar-inverse .navbar-nav > .active > a,
+.nav-wrapper .navbar-inverse .navbar-nav > .active > a:hover, .nav-wrapper .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #5e4a9f;
+    background-color: #FFF;
+     border-bottom: 1px solid  #5e4a9f ;
+}
+
+.nav-wrapper .navbar-inverse .navbar-nav > li > a:hover
+ {
+    color:#5e4a9f;
+     border-bottom: 1px solid  #5e4a9f ;
+}
+
+.nav-wrapper .navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+.nav-wrapper .navbar li  a {
+    display: block;
+    position: relative;
+    transition: .5s;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*End navbar*/
+
+/*Start internet*/
+.internet{
+    background-color: black;
+    transition: all 0.5s ease-in-out ;
+     padding-bottom: 25px;
+    position: relative;
+    
+}
+
+.about-internet{
+    border: 6px solid skyblue;
+     transition: all 0.5s ease-in-out ;
+}
+.internet .h-test {
+        position: absolute;
+    top: 40px;
+    z-index: 4444;
+    background: transparent;
+    font-size: 20px;
+    padding-top: 15px;
+    color: grey
+}
+.speed-test {
+    position: absolute;
+   visibility: hidden;
+     transition:  0.5s  ease-in-out ;
+ margin-top: 12px;
+}
+
+
+.test-result .fa-tachometer{
+    position: absolute;
+    color: #c7c4c4;
+    z-index: 4444444;
+    top: 45px;
+    left: 16%;
+     font-size: 23px;
+    margin-left: 16%;
+}
+.fa-download {
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 50%;
+    padding: 3px
+}
+.fa-upload {
+    color: mediumpurple;
+    border: 1px solid mediumpurple;
+    border-radius: 50%;
+    padding: 3px
+}
+
+.test-result {
+     z-index: 44444444;
+    position: absolute;
+     width: 500px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 2px 2px 28px 5px #a155a1;
+    border-radius: 30px;
+  right: -300px;
+    
+ 
+
+}
+
+.down-up {
+   
+    display: block;
+    margin-top: 70px;
+    
+}
+
+ .test-result .down-up .val {
+      display: block;
+    font-size: 30px;
+    padding: 0px 5px;
+    color: #FFF
+}
+.test-result img{
+    position: absolute;
+      height: 100%;
+    border-radius: 10px;
+ 
+   
+  
+}
+.internet h2 {
+   text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    width: 70%;
+    margin: -5px 15%;
+    background: black;
+    padding:40px 0 ;
+}
+
+.internet .sub-title {
+    text-align: center;
+    font-size: 30px;
+  
+}
+.internet .sub-title img {
+   display: block;
+    width: 100px;
+    margin-right:50%;
+    padding-bottom: 30px
+   
+}
+.internet ul {
+   
+    list-style: none;
+    
+}
+.internet ul li {
+    display: inline;
+    padding: 10px;
+    width: 25%;
+    position: relative;
+    float: right;
+   
+}
+.internet ul.down-up  li {
+  width: 50% ;
+    padding: 15px 23px;   
+}
+.internet ul.down-up  li:first-child {
+    text-align: left;
+}
+.internet ul.down-up  li .up,
+.internet ul.down-up  li .down{
+   font-size: 20px;
+    padding-right: 5px;
+    color: #FFF;
+}
+.internet ul.down-up  li .unit{
+    color: #777;
+    font-size: 20px;
+}
+.internet ul.counter{
+    transition: 0.5s;
+}
+.internet ul.counter li{
+    position: relative;
+    padding-right: 5px
+}
+.internet ul.counter li .type {
+    display: block;
+    font-size: 5px;
+}
+
+.internet ul.counter li:hover > .speed-test {
+    visibility: visible;
+    margin-top: 0;
+
+}
+.internet ul.counter li:hover > .speed-test:last-child{
+    right: 170px
+}
+.internet ul.counter li:hover > .speed-test:first-child{
+    left :100px
+}
+.internet ul li .number {
+    font-size: 30px;
+    color: #FFF;
+}
+
+.info-test1 li  .icon{
+height: 30px;
+    width: 30px;
+    top: -3px;
+    
+    
+}
+
+ul.info-test1 li {
+    margin-top: 30px;
+      border-left: 2px solid #FFF;
+    height: 35px;
+    margin-left:2px;
+      width: 30%
+
+}
+.info-test1 li:last-child{
+    border: none;
+
+}
+.info-test1 li span {
+    position: absolute;
+    right: 43px;
+    top: -3px;
+  
+    color: #6a6b7f;
+    font-size: 13px;
+    padding-left: 1px;
+    line-height: 1.8; 
+}
+
+.footer-tester {
+    width: 100%;
+ position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     font-size:18px;
+   color: #6a6b7f;
+
+
+}
+.footer-tester li:nth-child(2)  {
+    left: 0;
+     width: 50%;
+    text-align: left;
+   
+    
+}
+.footer-tester li a {
+   text-decoration: none;  
+   
+}
+.footer-tester li a:hover{
+    color: #FFF;
+}
+
+
+ ul.links li {
+    width: 50%;
+     margin-bottom: 15px;
+}
+ul.links li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+ul.links li .btn{
+    height: 40px;
+    padding: 1px 20px;
+    color: #FFF;
+    background:  #5e4a9f;
+    border: 3px solid  #5e4a9f ;
+     transition: all 0.5s ease-in-out;
+    margin-top: 50px
+
+}
+ul.links li .btn:hover  {
+    background: transparent;
+}
+ul.links li .btn:hover a{
+    color:  #5e4a9f;
+}
+ul.links li:nth-child(2){
+    text-align: left;
+}
+/*End internet*/
+.clear {
+    clear: both;
+    width: 100%;
+    display: block;
+}
+/*Start slider*/
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+
+
+.testimonials .carousel-indicators {
+ 
+    padding-left: 10px;
+  
+    bottom: 0px;
+    background: black;
+   
+}
+
+.testimonials .carousel-indicators li {
+
+    display: inline-block;
+    width: calc(80%/3);
+    height: 80px;
+    margin: 1px;
+ 
+    cursor: pointer;
+      border: none;
+    border-radius:0;
+   color: #FFF;
+    border-left: 2px solid #fff;
+    padding: 10px;
+    margin-left: 15px;
+    right: 0;
+
+}
+.testimonials .carousel-indicators li:last-child{
+    border-left: none;
+}
+.testimonials .carousel-indicators li.active{
+  
+   background: none
+ 
+}
+
+
+ .carousel-indicators li p{
+    color: #FFF;
+    font-size: 16px;
+    width: 25%;
+  position: absolute;
+    text-align: justify;
+    overflow: hidden;
+       text-indent: 0;
+     text-align: center;
+    
+   
+}
+ .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    left: 0;
+}
+.testimonials .item  .news  a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.testimonials .item  .news {
+    width:40% ;
+    position: absolute;
+    background-color: transparent;
+    margin: 20px;
+    color: #FFF;
+    z-index: 22227777;
+  animation: zoom 0.5s ease-in-out ;
+}
+.testimonials .item .data {
+    background-color: deepskyblue;
+    padding: 5px 10px;
+
+    color: #FFF;
+}
+/*End slider*/
+
+
+
+
+
+
+
+
+
+

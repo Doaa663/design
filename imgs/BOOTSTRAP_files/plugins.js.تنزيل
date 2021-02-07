@@ -1,0 +1,48 @@
+
+
+        $(document).ready(function(){
+                'use strict';
+        $('.carousel').carousel({
+          interval: 2000
+        });
+
+            //Show color option div when  click on the gear 
+            $(".gear-check").click(function() {
+
+                $('.color-option').fadeToggle();
+            }) ;
+
+      
+
+//chang theme color on click
+var colorLi =  $('.color-option ul li ');
+
+ colorLi 
+.eq(0).css("backgroundColor" , "darkred").end()  //we can color this with css first child...
+.eq(1).css("backgroundColor" , "green").end()
+.eq(2).css("backgroundColor" , "purple").end()
+.eq(3).css("backgroundColor" , "orange").end()
+.eq(4).css("backgroundColor" , "blue");
+
+        
+        
+        colorLi.click(function(){
+            $("link[href*='theme']").attr("href",$(this).attr("data-value"));
+            
+
+           }) ;
+        
+        });
+
+
+//loading screen
+
+            $(window).load( function()
+                    {
+               $(".loading-overlay .loading-overlay .sk-folding-cube").fadeOut(1000);
+                
+            });
+
+
+
+
